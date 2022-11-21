@@ -15,12 +15,12 @@ gradle.projectsEvaluated {
 }
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 30
     buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 30
         versionCode 1
         versionName project.version
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
