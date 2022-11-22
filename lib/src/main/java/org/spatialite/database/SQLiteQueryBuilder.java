@@ -20,9 +20,9 @@ package org.spatialite.database;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteException;
+import android.os.CancellationSignal;
 import android.os.OperationCanceledException;
 import android.provider.BaseColumns;
-import android.support.v4.os.CancellationSignal;
 import android.text.TextUtils;
 import android.util.Log;
 

@@ -17,7 +17,7 @@
 
 package org.spatialite.database;
 
-import android.support.v4.os.CancellationSignal;
+import android.os.CancellationSignal;
 
 import java.util.Arrays;
 

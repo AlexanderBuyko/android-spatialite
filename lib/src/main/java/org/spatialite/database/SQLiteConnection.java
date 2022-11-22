@@ -28,12 +28,12 @@ import android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException;
 import android.database.sqlite.SQLiteDatabaseLockedException;
 import android.database.sqlite.SQLiteException;
 import android.os.Build;
+import android.os.CancellationSignal;
 import android.os.Looper;
+import android.os.OperationCanceledException;
 import android.os.ParcelFileDescriptor;
-import android.support.v4.os.CancellationSignal;
-import android.support.v4.os.OperationCanceledException;
-import android.support.v4.util.LruCache;
 import android.util.Log;
+import android.util.LruCache;
 import android.util.Printer;
 
 import org.spatialite.CursorWindow;

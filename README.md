@@ -121,3 +121,10 @@ The main ideas used here were borrowed from:
 
 ## LICENSE
 Apache License 2.0
+
+## NDK version is 16...
+## AGP 3.2.1
+## Gradle 4.8.1
+## Target & compile versions are 30th
+## JAVA 1.8
+## Android X

@@ -19,8 +19,8 @@ package org.spatialite.database;
 
 import android.database.sqlite.SQLiteDatabaseCorruptException;
 import android.database.sqlite.SQLiteException;
-import android.support.v4.os.CancellationSignal;
-import android.support.v4.os.OperationCanceledException;
+import android.os.CancellationSignal;
+import android.os.OperationCanceledException;
 import android.util.Log;
 
 import org.spatialite.CursorWindow;

@@ -1,13 +1,13 @@
 package org.spatialite.sqlcipher;
 
 import android.content.Context;
-import android.support.annotation.CallSuper;
-import android.support.test.InstrumentationRegistry;
+import androidx.annotation.CallSuper;
+
+import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import org.junit.After;
 import org.junit.Before;
-import org.spatialite.database.SQLiteDatabase;
 
 import java.io.File;
 import java.io.FileOutputStream;

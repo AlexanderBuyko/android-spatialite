@@ -23,9 +23,9 @@ package org.spatialite.database;
 
 import android.annotation.SuppressLint;
 import android.database.sqlite.SQLiteException;
+import android.os.CancellationSignal;
+import android.os.OperationCanceledException;
 import android.os.SystemClock;
-import android.support.v4.os.CancellationSignal;
-import android.support.v4.os.OperationCanceledException;
 import android.util.Log;
 import android.util.Printer;
 

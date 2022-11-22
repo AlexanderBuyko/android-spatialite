@@ -28,10 +28,11 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabaseCorruptException;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteTransactionListener;
+import android.os.CancellationSignal;
 import android.os.Looper;
-import android.support.annotation.IntDef;
-import android.support.v4.os.CancellationSignal;
-import android.support.v4.os.OperationCanceledException;
+import androidx.annotation.IntDef;
+
+import android.os.OperationCanceledException;
 import android.text.TextUtils;
 import android.util.EventLog;
 import android.util.Log;
